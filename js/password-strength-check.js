@@ -14,7 +14,9 @@ const mediumPassword = new RegExp(
 );
 
 function StrengthChecker(pass) {
+	console.log(strongPassword.test(pass));
   if (strongPassword.test(pass)) {
+    
     strengthBadge.style.backgroundColor = "green";
     strengthBadge.textContent = "Strong";
   } else if (mediumPassword.test(pass)) {
@@ -28,6 +30,7 @@ function StrengthChecker(pass) {
 
 // Adding an input event listener when a user types to the  password input
 password.addEventListener("input", () => {
+  console.log(password.value);
 
   strengthBadge.style.display = "block";
 

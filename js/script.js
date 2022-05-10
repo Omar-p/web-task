@@ -66,8 +66,12 @@ const pageTwoContent = `<div class="col-lg-4 col-md-6 py-3 px-5">
 
 pageOne.addEventListener('click', () => {
     pageView.innerHTML = pageOneContent
+    pageOne.classList.add('active')
+    pageTwo.classList.remove('active')
 })
 
 pageTwo.addEventListener('click', () => {
     pageView.innerHTML = pageTwoContent
+    pageOne.classList.remove('active')
+    pageTwo.classList.add('active')
 })
