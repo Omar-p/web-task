@@ -9,7 +9,7 @@ console.log(pageTwo)
 
 
 const pageOneContent = `<div class="col-lg-4 col-md-6 py-3 px-5">
-<div class="card w-100 h-50">
+<div class="card w-100 h-100">
     <img src="img/latte.jpg" class="card-img-top img-fluid h-100" alt="latte">
     <div class="card-body px-5">
         <h5 class="card-title">Latte</h5>
@@ -18,7 +18,7 @@ const pageOneContent = `<div class="col-lg-4 col-md-6 py-3 px-5">
 </div>
 </div>
 <div class="col-lg-4 col-md-6 py-3 px-5">
-<div class="card w-100 h-50">
+<div class="card w-100 h-100">
     <img src="img/cappuccino.jpg" class="card-img-top img-fluid h-100" alt="cappuccino">
     <div class="card-body px-5">
         <h5 class="card-title">Cappuccino</h5>
@@ -27,7 +27,7 @@ const pageOneContent = `<div class="col-lg-4 col-md-6 py-3 px-5">
 </div>
 </div>
 <div class="col-lg-4 col-md-6 py-3 px-5">
-<div class="card w-100 h-50">
+<div class="card w-100 h-100">
     <img src="img/pumpkin-raf.jpg" class="card-img-top img-fluid h-100" alt="pumpkin raf">
     <div class="card-body px-5">
         <h5 class="card-title">Pumpkin raf</h5>
@@ -37,7 +37,7 @@ const pageOneContent = `<div class="col-lg-4 col-md-6 py-3 px-5">
 </div>`
 
 const pageTwoContent = `<div class="col-lg-4 col-md-6 py-3 px-5">
-<div class="card w-100 h-50">
+<div class="card w-100 h-100">
     <img src="img/Turkish-coffee.jpg" class="card-img-top img-fluid h-100" alt="turkish coffee">
     <div class="card-body px-5">
         <h5 class="card-title">Turkish coffee</h5>
@@ -46,7 +46,7 @@ const pageTwoContent = `<div class="col-lg-4 col-md-6 py-3 px-5">
 </div>
 </div>
 <div class="col-lg-4 col-md-6 py-3 px-5">
-<div class="card w-100 h-50">
+<div class="card w-100 h-100">
     <img src="img/expresso.jpg" class="card-img-top img-fluid h-100" alt="espresso">
     <div class="card-body px-5">
         <h5 class="card-title">Espresso</h5>
@@ -55,7 +55,7 @@ const pageTwoContent = `<div class="col-lg-4 col-md-6 py-3 px-5">
 </div>
 </div>
 <div class="col-lg-4 col-md-6 py-3 px-5">
-<div class="card w-100 h-50">
+<div class="card w-100 h-100">
     <img src="img/iced-coffe.jpg" class="card-img-top img-fluid h-100" alt="ice coffee">
     <div class="card-body px-5">
         <h5 class="card-title">Ice coffee</h5>
